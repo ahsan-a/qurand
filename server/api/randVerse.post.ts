@@ -10,7 +10,7 @@ const randVerseSchema = z.object({
 	byJuz: z.boolean().default(true),
 });
 
-const quran = fs.readFileSync(path.join(process.cwd(), 'public', 'quran.txt'), 'utf-8').toString().split('\n\n\n')[0];
+const quran = fs.readFileSync(path.resolve('public/quran.txt'), 'utf-8').toString().split('\n\n\n')[0];
 
 const quranJuzAyahs = quran.split('\n\n').map((x, juz) =>
 	x
