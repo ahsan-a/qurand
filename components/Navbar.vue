@@ -1,7 +1,7 @@
 <template>
-	<div class="navbar bg-base-200">
+	<div class="navbar">
 		<div class="flex-1">
-			<a class="btn btn-ghost text-2xl font-bold">Quran(d)</a>
+			<a class="btn btn-ghost text-2xl font-bold">quran(d)</a>
 		</div>
 		<div class="flex-none">
 			<a class="btn btn-square btn-ghost" href="https://github.com/ahsan-a/qurand">

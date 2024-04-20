@@ -1,75 +1,31 @@
-# Nuxt 3 Minimal Starter
+# quran(d)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Automated quran testing.
 
-## Setup
+This project uses [Tanzil](https://tanzil.net/docs/). Here is it's license:
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
+  Tanzil Quran Text
+  Copyright (C) 2007-2021 Tanzil Project
+  License: Creative Commons Attribution 3.0
 
-## Development Server
+  This copy of the Quran text is carefully produced, highly
+  verified and continuously monitored by a group of specialists
+  in Tanzil Project.
 
-Start the development server on `http://localhost:3000`:
+  TERMS OF USE:
 
-```bash
-# npm
-npm run dev
+  - Permission is granted to copy and distribute verbatim copies
+    of this text, but CHANGING IT IS NOT ALLOWED.
 
-# pnpm
-pnpm run dev
+  - This Quran text can be used in any website or application,
+    provided that its source (Tanzil Project) is clearly indicated,
+    and a link is made to tanzil.net to enable users to keep
+    track of changes.
 
-# yarn
-yarn dev
+  - This copyright notice shall be included in all verbatim copies
+    of the text, and shall be reproduced appropriately in all files
+    derived from or containing substantial portion of this text.
 
-# bun
-bun run dev
+  Please check updates at: http://tanzil.net/updates/
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
