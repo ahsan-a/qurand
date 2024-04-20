@@ -28,7 +28,7 @@
 				</div>
 
 				<!-- Themes -->
-				<div class="dropdown mb-72 mx-auto w-full">
+				<div class="dropdown mx-auto w-full">
 					<div tabindex="0" role="button" class="btn">
 						Theme
 						<svg
@@ -54,6 +54,7 @@
 						</li>
 					</ul>
 				</div>
+				<p class="text-sm font-semibold text-center">This site uses Vercel Analytics.</p>
 			</div>
 		</div>
 		<div class="md:ml-5 w-fit border-base-300 h-full mt-6">
