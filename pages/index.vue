@@ -31,6 +31,7 @@ const settings = useSettings();
 useSeoMeta({
 	title: 'quran(d)',
 	description: ' Accelerate your Quran revision and memorisation with automated testing.',
+	'google-site-verification': "UD_XqinTugXrZvPhrQiDIP4rXLF4rqh9HhfpTNR8ecI"
 });
 
 const verse: Ref<Verse | null> = ref(null);
