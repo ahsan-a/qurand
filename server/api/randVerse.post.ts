@@ -74,16 +74,21 @@ export default defineEventHandler(async (event) => {
 
 		flattened = selectedJuz.flat(3);
 	} else {
-		let selectedSurahs = data.map((x) => quranBySurahs[x - 1]);
+		let selectedSurahs = data.map((x) => quranBySurahs[x]);
+		console.log(selectedSurahs);
 
 		if (omitVerses[0]) selectedSurahs = selectedSurahs.map((x) => x.slice(omitVerses[0]));
 		if (omitVerses[1]) selectedSurahs = selectedSurahs.map((x) => x.slice(0, -omitVerses[1]));
 
 		flattened = selectedSurahs.flat(3);
 	}
+	flattened = flattened
+		.map((x) => ({
+			...x,
+			content: x.content.replace('بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ', ''),
+		}))
+		.filter((x) => x.content);
+
 	const chosen = flattened[Math.floor(Math.random() * flattened.length)];
-
-	chosen.content = chosen.content.replace('بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ', '').trim();
-
 	return chosen;
 });
