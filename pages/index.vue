@@ -30,7 +30,7 @@ const settings = useSettings();
 
 useSeoMeta({
 	title: 'quran(d)',
-	description: ' Accelerate your Quran revision and memorisation with automated testing.',
+	description: 'Accelerate your Quran revision and memorisation with automated testing.',
 	googleSiteVerification: 'UD_XqinTugXrZvPhrQiDIP4rXLF4rqh9HhfpTNR8ecI',
 });
 
